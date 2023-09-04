@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 78px;
+  padding: 0 20px;
+  background-color: #fff;
+}
+
+h1 {
+  margin: 0;
+  transition: color 0.3s;
+}
+
+h1:hover {
+  color: #3b6978;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 8%;
+}
+
+img {
+  width: 330px;
+  height: 200px;
+  object-fit: cover;
+  margin: 11.87px;
+}
+
+.capyright {
+  text-align: center;
+  margin: 20px;
+  color: rgb(127, 127, 127);
+}
