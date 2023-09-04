@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="photoPage.css" />
+    <title>sea page</title>
+  </head>
+  <body>
+    <header>
+      <div class="home">
+        <h1 id="home-link">Seo Yeon</h1>
+      </div>
+      <div class="menu-toggle">
+        <img
+          style="width: 40px; height: 40px; margin: 0px"
+          src="TEST/icon-hamburger.png"
+          alt="meue"
+        />
+      </div>
+    </header>
+    <div class="gallery">
+      <img src="img/20230725_030457824.jpg" />
+      <img src="img/20230725_030457824_01.jpg" />
+      <img src="img/20230725_030457824_02.jpg" />
+      <img src="img/20230725_030457824_03.jpg" />
+      <img src="img/20230725_030457824_04.jpg" />
+      <img src="img/20230725_030457824_05.jpg" />
+      <img src="img/20230725_030457824_06.jpg" />
+      <img src="img/20230725_030457824_07.jpg" />
+      <img src="img/20230725_030457824_08.jpg" />
+    </div>
+    <footer>
+      <div class="capyright">© Seo Yeon Photography</div>
+    </footer>
+    <script>
+      const homeLink = document.getElementById("home-link");
+
+      homeLink.addEventListener("click", () => {
+        window.location.href = "startPage.html";
+      });
+    </script>
+  </body>
+</html>
