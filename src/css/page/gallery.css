@@ -1,0 +1,21 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  order: 3;
+  width: 89%;
+  height: auto;
+  margin: 3%;
+  margin-top: 3%;
+  margin-right: 9%;
+  margin-left: 5%;
+}
+
+.gallery img {
+  width: 95%;
+  height: 90%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 0;
+  margin-left: 4%;
+  margin-bottom: 7%;
+}

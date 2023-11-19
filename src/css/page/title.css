@@ -1,0 +1,22 @@
+.pageTitle {
+  display: block;
+  width: 300px;
+  height: 100px;
+  margin: 0;
+  order: 2;
+  margin-left: 6%;
+}
+
+.pageTitle p {
+  margin: 0;
+  margin-bottom: 5%;
+  font-weight: bold;
+  font-size: 100px;
+  color: #507b88;
+  transition: color 0.3s;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.pageTitle p:hover {
+  color: #fea04f;
+}
