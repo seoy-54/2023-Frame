@@ -1,0 +1,30 @@
+/* 사이드바 너비의 50%만큼 왼쪽으로 이동 */
+.menu {
+  transform: translate(
+    calc(var(--side-bar-width) * 0.5),
+    0
+  ); /* X축 이동, Y축 고정 */
+  transition: 0.7s;
+}
+
+/* 마우스 인식 시 원래의 위치로 이동 */
+.menu:hover {
+  background-color: rgba(80, 123, 136, 0.9);
+  transform: translate(0, 0);
+}
+
+.menu:hover .menu__icon-box i {
+  transform: translate(
+    calc(var(--side-bar-width) * -0.3)
+  ); /* 이미지를 오른쪽으로 이동 */
+  transition: 0.7s;
+}
+
+.menu:hover ul > li > a {
+  text-align: left; /* 마우스 호버 시 a 요소를 오른쪽 정렬 유지 */
+}
+
+/* 마우스가 메뉴 바깥으로 나갈 때 a 요소 숨기기 */
+.menu:not(:hover) ul > li > a {
+  display: none;
+}

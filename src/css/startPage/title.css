@@ -1,0 +1,28 @@
+.title {
+  order: 3;
+  display: block;
+  margin-bottom: 0;
+  width: 500px;
+  z-index: 1;
+}
+
+.title p {
+  margin: 0;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 160px;
+  transition: color 0.3s;
+  color: black;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* 
+  f9c491 fea04f 507b88
+  fa600b 083182 */
+.title p::first-letter {
+  color: #507b88;
+}
+
+.title p:hover {
+  color: #fea04f;
+}

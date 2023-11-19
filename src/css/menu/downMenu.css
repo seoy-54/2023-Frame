@@ -1,0 +1,19 @@
+/* 자식의 position이 absolute일 때 자식을 영역 안에 가두어 준다 */
+.menu > ul > li {
+  position: relative;
+}
+
+/* 모든 메뉴가 마우스 인식 시 반응 */
+.menu ul > li:hover > a {
+  background-color: rgba(254, 160, 79, 0.9);
+}
+
+/* 1차 메뉴의 항목이 마우스 인식 시에 2차 메뉴 등장 */
+.menu > ul > li:hover > ul {
+  display: block;
+  position: absolute;
+  background-color: rgba(125, 157, 169, 0.9);
+  top: 0; /* 2차 메뉴의 상단을 1차 메뉴의 상단에 고정 */
+  right: 100%; /* 2차 메뉴를 1차 메뉴의 너비만큼 이동 */
+  width: 70%; /* 1차 메뉴의 너비를 상속 */
+}
