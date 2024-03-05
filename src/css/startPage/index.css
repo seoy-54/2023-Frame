@@ -1,20 +1,65 @@
 @import "nav.css";
 @import "title.css";
 @import "bar.css";
+@import "ranking.css";
+
+.hr {
+  margin: 80px;
+  margin-bottom: 0;
+  margin-left: 40%;
+  border: 0;
+
+  &:before {
+    content: "\2022  \2022  \2022";
+    font-size: 50px;
+    color: #507b88;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.title {
+  order: -1;
+  margin-top: 350px;
+}
 
 .middle {
-  flex-grow: 0;
-  width: 85.7%;
-  margin: 4%;
-  margin-top: 5%;
-  order: 2;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-bottom: 0;
-  z-index: 0.5;
+  margin: 4%;
+  margin-top: 0;
+  margin-bottom: 5%;
+  z-index: 0;
+  width: 40%; /* 이미지 크기의 기본 값으로 지정 */
 }
 
 .middle img {
-  width: 45%;
+  width: 100%; /* 부모 요소인 .middle에 꽉 차도록 이미지 크기 설정 */
+  height: auto; /* 가로 세로 비율 유지 */
+}
+
+.menu {
+  flex: 1;
+}
+
+.ranking {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 0.5fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.rankImg {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.rankTitle {
+  grid-area: 1 / 1 / 2 / 4;
 }

@@ -1,0 +1,18 @@
+#like {
+  width: 50px;
+  fill: #ddd;
+  position: absolute;
+  bottom: 8%;
+  right: 24%;
+  transform: translateY(00%);
+}
+
+#like.active {
+  fill: rgb(223, 0, 0);
+}
+
+.like-count {
+  position: absolute;
+  top: 79%;
+  right: 20%; /* 원하는 위치 조정 */
+}

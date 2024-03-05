@@ -1,8 +1,12 @@
+.scrollbar {
+  position: relative;
+}
+
 .bar1 {
   width: 4px;
   height: 50%;
   background-color: #000;
-  position: absolute;
+  position: fixed;
   left: 5%;
   bottom: 34%;
 }
@@ -11,7 +15,7 @@
   width: 45%;
   height: 4px;
   background-color: #000;
-  position: absolute;
+  position: fixed;
   bottom: 5%;
   right: 10%;
 }

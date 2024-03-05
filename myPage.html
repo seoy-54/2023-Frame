@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/css/myPage.css" rel="stylesheet" type="text/css" />
+    <title>Frame</title>
+    <link rel="website icon" type="png" href="src/images/logo2.png" />
+  </head>
+  <body>
+    <div class="nav">
+      <a href="startPage.html"
+        ><img class="logo" src="src/images/logo.png" alt="logo"
+      /></a>
+    </div>
+    <div class="menu">
+      <section class="menu__icon-box">
+        <!-- <img
+          src="src/images/free-icon-font-menu-burger-3917215.png"
+          alt="menu"
+        /> -->
+      </section>
+      <ul>
+        <li>
+          <a href="myPage.html">마이페이지</a>
+        </li>
+        <li>
+          <a href="main.html">전체</a>
+        </li>
+        <li>
+          <a href="#">동물</a>
+          <ul>
+            <li><a href="#">강아지</a></li>
+            <li><a href="#">고양이</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">풍경</a>
+          <ul>
+            <li><a href="sea.html">바다</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">인물</a>
+        </li>
+      </ul>
+    </div>
+    <hr />
+    <div class="banner"><p>Frame</p></div>
+    <hr class="hr" />
+    <div class="upload">
+      <p class="title">Photo upload</p>
+      <label for="file-upload">
+        <img
+          id="upload-image-icon"
+          src="src/images/free-icon-add-image-401061.png"
+          alt="upload"
+        />
+      </label>
+      <input
+        type="file"
+        id="file-upload"
+        style="display: none"
+        accept="image/*"
+        multiple
+      />
+      <ul class="image-preview"></ul>
+      <p class="p">Category</p>
+      <div class="checkboxes">
+        <input type="checkbox" id="categoryCheck1" name="categoryCheck1" />
+        <label for="categoryCheck1">동물</label>
+        <input type="checkbox" id="categoryCheck2" name="categoryCheck2" />
+        <label for="categoryCheck2">풍경</label>
+        <input type="checkbox" id="categoryCheck3" name="categoryCheck3" />
+        <label for="categoryCheck3">인물</label>
+      </div>
+      <div class="frame">
+        <button id="upload-button" class="custom-btn btn">Upload</button>
+      </div>
+    </div>
+    <script src="src/js/page/click.js"></script>
+  </body>
+</html>

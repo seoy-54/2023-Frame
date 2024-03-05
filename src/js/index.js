@@ -1,1 +1,1 @@
-import page from "./store/index.js";
+import page from "./index.js";

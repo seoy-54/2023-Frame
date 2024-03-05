@@ -1,6 +1,8 @@
 @import "./startPage/index.css";
 @import "./menu/menuMain.css";
+@import "./menu/animation.css";
 @import "./page/index.css";
+@import "./scroll.css";
 
 @media screen and (min-width: 1213px) {
   body {
@@ -19,4 +21,14 @@ body {
   background-image: url("../images/background.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.nav {
+  margin-left: 4%;
+}
+
+.menuMain {
+  margin-top: 8%;
+  padding-left: 250px;
+  padding-bottom: 8%;
 }

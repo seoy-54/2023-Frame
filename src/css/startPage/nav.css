@@ -12,8 +12,14 @@
 
 .logo {
   width: 60px;
+  display: block;
+  margin: 0 auto;
 }
 
 .menu {
   width: 25px;
+}
+
+.nav img:last-child {
+  order: 2;
 }

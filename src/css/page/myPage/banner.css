@@ -1,0 +1,13 @@
+.banner {
+  order: 2;
+  margin: 3%;
+  background-position: center;
+}
+
+.banner p {
+  font-size: 250px;
+  font-weight: bolder;
+  line-height: 0;
+  margin: 18% 0 5% 0;
+  text-align: center;
+}

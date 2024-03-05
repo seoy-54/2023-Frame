@@ -1,0 +1,22 @@
+.rankTitle {
+  font-size: 70px;
+  font-weight: 600;
+  height: fit-content;
+  margin: 0;
+  margin-left: 32%;
+  margin-top: 50px;
+}
+
+.rankImg {
+  width: 500px;
+  margin-bottom: 70px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+p {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 325px;
+  margin-left: 30px;
+}

@@ -1,5 +1,7 @@
 @import "./startPage/index.css";
 @import "./menu/index.css";
+@import "./menu/animation.css";
+@import "./scroll.css";
 
 @media screen and (min-width: 1213px) {
   body {
@@ -19,4 +21,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgba(80, 123, 136, 0.9);
 }

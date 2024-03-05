@@ -14,17 +14,20 @@
   max-height: 70vh; /* 이미지 최대 높이 설정 */
   display: block;
   margin: 0; /* 가운데 정렬 */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* 그림자 효과 */
 }
 
-.close {
+.lightbox-content {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* 예시 그림자 스타일 */
+}
+
+/* .close {
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
-  font-size: 50px;
+  width: 40px;
   color: #333;
-}
+} */
 
 .lightbox .prev,
 .lightbox .next {
@@ -38,14 +41,13 @@
   line-height: 40px;
   font-size: 20px;
   cursor: pointer;
+  box-shadow: none;
 }
 
 .lightbox .prev {
-  left: 2%;
-  font-size: 25px;
+  left: 4%;
 }
 
 .lightbox .next {
   right: 2%;
-  font-size: 25px;
 }
